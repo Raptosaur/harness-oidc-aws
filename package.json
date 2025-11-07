@@ -1,0 +1,12 @@
+{
+  "name": "harness-oidc-aws",
+  "version": "1.0.0",
+  "description": "Assume AWS Role with OIDC token",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1470.0"
+  }
+}
