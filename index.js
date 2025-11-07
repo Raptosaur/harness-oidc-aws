@@ -24,6 +24,9 @@ async function assumeRoleWithOidc(roleArn, webIdentityToken, sessionName = 'oidc
 
 // For demonstration, read inputs from environment variables
 (async () => {
+    console.log(process.args);
+    console.log(process.env);
+
     const roleArn = process.env.ROLE_ARN;
     const token = process.env.OIDC_TOKEN;
     const sessionName = process.env.SESSION_NAME || 'oidc-session';
