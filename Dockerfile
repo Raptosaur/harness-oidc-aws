@@ -10,5 +10,4 @@ RUN npm install --production
 # Copy app source code
 COPY index.js .
 
-# Default command
-CMD ["node", "index.js"]
+ENTRYPOINT ["node", "index.js"]
